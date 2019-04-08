@@ -1,0 +1,87 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+
+            <!-- Article List -->
+
+            <div class="col-sm-12 col-md-8">
+
+                <!-- H1 Article -->
+                <a class="main-article-link" href="#">
+                    <div class="main-article mb-5 pb-3">
+                        <img src="{{ asset('images/gamePrev.png') }}" alt="Cool game">
+                        <h1 class="text-center mt-2">I made a very cool game! <br>If you set your standards rather low?</h1>
+                    </div>
+                </a>
+
+                <!-- Supporting Articles -->
+
+                <div class="article-container my-1">
+                    <a href="{{ path('pokemon_show', { q: random(1,816) }) }}">
+                        <img class="article-img" src="{{ asset('images/pokedex256x256bb.jpg') }}">
+                        <div class="article-title d-inline-block pl-3 align-middle">
+                            <span>Who's that pokemon?</span>
+                            <br>
+                            <span class="align-left article-details"><img class="article-author-img rounded-circle" src="{{ asset('images/recommended256.png') }}"> Tom Goyens</span>
+                            <span class="pl-5 article-details float-right"> Very cool</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="article-container my-1">
+                    <a href="{{ path('weather_show', { q: random(["London", "Brussels", "Hong+Kong", "New+York", "Los+Angeles", "Paris"]) }) }}">
+                        <img class="article-img"  src="{{ asset('images/weather/Clear.png') }}">
+                        <div class="article-title d-inline-block pl-3 align-middle">
+                            <span>What's the weather?: <br> Find out!</span>
+                            <br>
+                            <span class="align-left article-details"><img class="article-author-img rounded-circle" src="{{ asset('images/recommended256.png') }}"> Tom Goyens </span>
+                            <span class="pl-5 article-details float-right"> Very cool</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="article-container my-1">
+                    <a href="{{ path('jokes_show') }}">
+                        <img class="article-img" src="{{ asset('images/jokemoji.jpg') }}">
+                        <div class="article-title d-inline-block pl-3 align-middle">
+                            <span>Have a laugh: <br> Do it!</span>
+                            <br>
+                            <span class="align-left article-details"><img class="article-author-img rounded-circle" src="{{ asset('images/recommended256.png') }}"> Tom Goyens </span>
+                            <span class="pl-5 article-details float-right"> Very cool</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="article-container my-1">
+                    <a href="{{ path('recipes_show') }}">
+                        <img class="article-img" src="{{ asset('images/recipeBackground.png') }}">
+                        <div class="article-title d-inline-block pl-3 align-middle">
+                            <span>When you don't know what'd for dinner: <br>Courtesy of RecipePuppy.</span>
+                            <br>
+                            <span class="align-left article-details"><img class="article-author-img rounded-circle" src="{{ asset('images/recommended256.png') }}"> Tom Goyens </span>
+                            <span class="pl-5 article-details float-right"> Very cool</span>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Right bar -->
+
+
+            <div class="col-sm-12 col-md-4 text-center">
+                <div class="quote-space pb-2 pt-2 px-5">
+                    <h3 class="text-center pb-3">To do</h3>
+                    <ul>
+                      <li>css eigen maken</li>
+                      <li>log in systeem</li>
+                      <li>spen level overgang, etc.</li>
+                      <li>dedicated searchbar api's?</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

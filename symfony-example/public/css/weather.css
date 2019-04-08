@@ -1,0 +1,80 @@
+body{
+  background-image: url('../images/weather2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.weatherBox{
+  height: 50vh;
+  width: 50vw;
+  min-height: 300px;
+  min-width: 400px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 15px #333;
+  display: flex;
+}
+.images{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.images img{
+  width: 60%;
+  height: auto;
+}
+.text{
+  width: 50%;
+  height: 100%;
+  background-color: #c12828;
+  color: #EEE;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  position: relative;
+}
+.city{
+    opacity: 0.8;
+    font-size: 2em;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+.temp{
+  font-size: 2em;
+  position: absolute;
+  right: 20%;
+  top: 14%;
+}
+.wind{
+    font-size: 1.5em;
+    position: absolute;
+    right: 20%;
+    top: 55%;
+}
+.humidity{
+    font-size: 1.5em;
+    position: absolute;
+    right: 20%;
+    top: 70%;
+}
+.weatherDesc{
+    font-size: 1.5em;
+    position: absolute;
+    left: 5%;
+    top: 26%;
+}
+.tag{
+    opacity: 0.6;
+    font-size: 60%;
+    position: relative;
+    left: -10px;
+}
+.unit{
+  vertical-align: super;
+  font-size: 60%;
+}

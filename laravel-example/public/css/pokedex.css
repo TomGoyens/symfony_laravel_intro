@@ -1,0 +1,68 @@
+body{
+  background-color: black;
+}
+
+.highlight{
+  background-color: yellow;
+}
+
+.bigBox{
+  display: grid;
+  grid-template: auto / 1fr 300px 1fr;
+}
+
+.box{
+  grid-column: 2;
+  color: white;
+  background-color: black;
+  display: grid;
+  grid-template: 150px auto / 100px 200px;
+  font-family: pokemon;
+  border: 2px solid white;
+  padding: 1px;
+  position: relative;
+}
+.box:before{
+  content: " ";
+  position: absolute;
+  top: -10px;
+  left: -4px;
+  right: -4px;
+  bottom: -10px;
+  border: 2px solid red;
+  border-top: 8px solid red;
+  border-bottom: 8px solid red;
+}
+.head1{
+  grid-area: 1 / 1 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.no{
+  font-size: 0.7em;
+}
+img{
+  background-color: white;
+  color: black;
+}
+.stat{
+  display: grid;
+  grid-template-columns: 2em 1fr;
+}
+.statNumber{
+  margin: auto;
+}
+.head2{
+  grid-area: 1 / 2 ;
+  margin: 1em;
+}
+.flavor{
+  grid-area: 2 / 1 / span 1 / span 2;
+  margin: 0 0.5em;
+  border-top: 2px red solid;
+}
+@font-face {
+  font-family: 'pokemon';
+  src: URL('../fonts/PKMN_RBYGSC.ttf') format('truetype');
+}
