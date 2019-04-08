@@ -13,7 +13,7 @@
 * Een model maken, migreren, ...
 
 
-maak beruik van de uitgebreide documentatie!
+maak gebruik van de uitgebreide documentatie!
 
 [leerrijke videoreeks van Laravel!](https://laracasts.com/series/laravel-from-scratch-2018)
 
