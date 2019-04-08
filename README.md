@@ -14,5 +14,7 @@
 
 
 maak beruik van de uitgebreide documentatie!
+
 [leerrijke videoreeks van Laravel!](https://laracasts.com/series/laravel-from-scratch-2018)
+
 [leerrijke videoreeks van Symfony!](https://symfonycasts.com/screencast/symfony)
