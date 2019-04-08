@@ -2,15 +2,15 @@
 
 ## voorbeelden
 
-definieer een wildcard route en zorg ervoor dat de wildcard of de pagina zelf komt te staan.
+*Definieer een wildcard route en zorg ervoor dat de wildcard of de pagina zelf komt te staan.
 
-een array van variabelen door te spelen via de controller naar de view.
+*Een array van variabelen door te spelen via de controller naar de view.
 
-maak een standaard layout file met twig of blade, zodat elke pagina dezelfde assets kan gebruiken.
+*Maak een standaard layout file met twig of blade, zodat elke pagina dezelfde assets kan gebruiken.
 
-zorg ervoor mbv twig of blade dat een pagina page specific assets kan gebruiken, zonder dat het de standaart assats verliest (parent())
+*Zorg ervoor mbv twig of blade dat een pagina page specific assets kan gebruiken, zonder dat het de standaart assats verliest (parent())
 
-een model maken, migreren, ...
+*Een model maken, migreren, ...
 
 
 maak beruik van de uitgebreide documentatie!
