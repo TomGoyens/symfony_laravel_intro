@@ -1,39 +1,20 @@
 # symfony_laravel_intro
 
-## Prerequisites
-
-### Installatie LAMP-stack?
-
-[Met terminal commands](https://howtoubuntu.org/how-to-install-lamp-on-ubuntu)
-
-### Installatie Composer
-
-[Get Composer here!](https://getcomposer.org/)
-
-## Wat is MVC? (in een powerpoint? samen met de symfony en laravel sell?)
-
-## basic routing
-
-## how to Controller
-
-### namespacing
-
-## wat is Twig/blade?
-
-Twig en Blade zijn template engines. Hiermee kan men html templates schrijven waar data kan worden ingevoerd.
-
-voor meer informatie ga naar de website: [Blade](https://laravel.com/docs/5.8/blade), [Twig](https://twig.symfony.com/)
-
-## standard layout file
-
 ## voorbeelden
 
-een array van variabelen door te spelen via de controller naar de view
+* Definieer een wildcard route en zorg ervoor dat de wildcard of de pagina zelf komt te staan.
 
-een model maken, migreren, ...
+* Een array van variabelen door te spelen via de controller naar de view.
 
-assets doorgeven met twig/blade
+* Maak een standaard layout file met twig of blade, zodat elke pagina dezelfde assets kan gebruiken.
 
-## opdracht: maak een website in Symfony/Laravel
+* Zorg ervoor mbv twig of blade dat een pagina page specific assets kan gebruiken, zonder dat het de standaart assats verliest (parent())
 
-go nuts! Probeer een Symfony/Laravel website te maken!
+* Een model maken, migreren, ...
+
+
+maak beruik van de uitgebreide documentatie!
+
+[leerrijke videoreeks van Laravel!](https://laracasts.com/series/laravel-from-scratch-2018)
+
+[leerrijke videoreeks van Symfony!](https://symfonycasts.com/screencast/symfony)
